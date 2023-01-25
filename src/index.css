@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.title {
+  padding: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  background: #d3d3d3;
+  color: black;
+  font-size: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wallet {
+  text-decoration: underline;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wallet-form {
+  font-style: bold;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #d3d3d3;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.expense {
+  text-decoration: underline;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.expense-item {
+  list-style-type: upper-roman;
+  padding: 5px 10px;
+  background-color: #EEEEEE;
+  border: 1px solid #DDDDDD;
+  font-style: bold;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  
 }
